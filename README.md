@@ -13,8 +13,12 @@ chmod 777 pre-commit
 git commit --no -verify
 git commit -n -m
 
-[Google Style](https://checkstyle.org/styleguides/google-java-style-20180523/javaguide.html)
-[Sun Style](https://checkstyle.org/styleguides/sun-code-conventions-19990420/CodeConvTOC.doc.html)
+
+Checkstyle is highly configurable and can be made to support almost any coding standard. An example configuration files are supplied supporting 
+the [Sun Style](https://checkstyle.org/styleguides/sun-code-conventions-19990420/CodeConvTOC.doc.html), [Google Style](https://checkstyle.org/styleguides/google-java-style-20180523/javaguide.html).
+
+
+
 
 
 hook 脚本:
@@ -30,4 +34,6 @@ gradle
 
 https://www.jianshu.com/p/21d4cbe68a28
 
-(Rule for Chinese)[https://www.iteye.com/blog/zhangzuanqian-987121] 
+
+[Rule List](https://checkstyle.sourceforge.io/checks.html)
+[Rule for Chines](https://www.iteye.com/blog/zhangzuanqian-987121)
