@@ -29,3 +29,5 @@ https://blog.csdn.net/cmmchenmm/article/details/82804267
 gradle 
 
 https://www.jianshu.com/p/21d4cbe68a28
+
+(Rule for Chinese)[https://www.iteye.com/blog/zhangzuanqian-987121] 
