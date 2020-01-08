@@ -10,7 +10,6 @@ function print(){
     echo ""
 }
 
-
 print 开始style checking
 
 wd=`pwd`
@@ -21,14 +20,13 @@ check_xml_path="$wd/check-style/check-style.xml"
 
 # echo $check_jar_path $check_xml_path
 
-# 清空temp文件
 rm -f temp
 
 is_err=0
 
 for file in `git status --porcelain | sed s/^...// | grep '\.java$'`;do
     path="$wd/$file"
-    print "检查文件：$path"
+    print "检查文件：$file"
     re=`java -jar $check_jar_path -c $check_xml_path $path >> temp`
     err=`cat temp | grep "ERROR"`
     if [[ $err = *"ERROR"* ]];then
@@ -40,7 +38,7 @@ done
 # err=`cat temp | grep "ERROR"`
 # printf "$err"
 
-print "检查完成，祝你好运"
+print "检查完成"
 
 rm -f temp
 
