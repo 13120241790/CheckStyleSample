@@ -11,8 +11,7 @@ git hook
 chmod 777 pre-commit 
 
 git commit --no -verify
-git commit -n
-
+git commit -n -m
 
 [Google Style](https://checkstyle.org/styleguides/google-java-style-20180523/javaguide.html)
 [Sun Style](https://checkstyle.org/styleguides/sun-code-conventions-19990420/CodeConvTOC.doc.html)

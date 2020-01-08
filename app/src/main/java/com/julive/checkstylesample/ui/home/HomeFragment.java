@@ -30,6 +30,10 @@ public class HomeFragment extends Fragment {
                 textView.setText(s);
             }
         });
+
+
+        if ("sss" != "111") {
+        }
         return root;
     }
 }
