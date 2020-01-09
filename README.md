@@ -21,6 +21,10 @@ Checkstyle is highly configurable and can be made to support almost any coding s
 
 
 
+
+
+
+
 ### Install
 
 
@@ -33,11 +37,15 @@ Checkstyle is highly configurable and can be made to support almost any coding s
 
 -  Terminal : 
 
-    ```bash
-  cp ./check-style/pre-commit ./.git/hooks   
-    ```
+  
 
-  ```bash
+  ```java
+  cp ./check-style/pre-commit ./.git/hooks   
+  ```
+
+  
+
+  ```java
   chmod 777 ./.git/hooks/pre-commit    
   ```
 
@@ -62,6 +70,7 @@ Checkstyle is highly configurable and can be made to support almost any coding s
 ​       **Modify** check-style/check-style.xml             
 
 [Rule List](https://checkstyle.sourceforge.io/checks.html)
+
 [Rule for Chinese](https://www.iteye.com/blog/zhangzuanqian-987121) 
 
 ![20200109113315](images/20200109113315.jpg)
@@ -75,7 +84,8 @@ Checkstyle is highly configurable and can be made to support almost any coding s
 
 [CheckStyle](https://checkstyle.org/)
 
-https://www.jianshu.com/p/de90ffbd53e9
+https://www.jianshu.com/p/de90ffbd53e9 
+
 https://blog.csdn.net/cmmchenmm/article/details/82804267
 
 https://www.jianshu.com/p/21d4cbe68a28
