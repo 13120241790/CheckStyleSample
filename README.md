@@ -2,39 +2,84 @@
 Auto scanning code for Java &amp; Android
 
 [CheckStyle](https://checkstyle.org/)
+
 [CheckStyle Github](https://github.com/checkstyle/checkstyle)
 
+### Feature
 
-java -jar checkstyle.jar -c checkstyle.xml xxx.java
+Checkstyle is highly configurable and can be made to support almost any coding standard. An example configuration files are supplied supporting the [Sun Style](https://checkstyle.org/styleguides/sun-code-conventions-19990420/CodeConvTOC.doc.html), [Google Style](https://checkstyle.org/styleguides/google-java-style-20180523/javaguide.html). 	
 
-git hook
-
-chmod 777 pre-commit 
-
-git commit --no -verify
-git commit -n -m
-
-
-Checkstyle is highly configurable and can be made to support almost any coding standard. An example configuration files are supplied supporting 
-the [Sun Style](https://checkstyle.org/styleguides/sun-code-conventions-19990420/CodeConvTOC.doc.html), [Google Style](https://checkstyle.org/styleguides/google-java-style-20180523/javaguide.html).
+> 摘自 checkstyle.org	                                                                                                   
 
 
 
+- **Auto**  自动化 : 和 Git hook 结合无需手动点击触发，commit 前自动扫描。
+- **Configurable** 高可配: 检测规则可简可繁，Google 和 Sun 的几百种规则自由组合还可以自定义。
+- **Cheap** 低成本: 5 分钟配置，永久有效
+- **Fast** 每次对比上次 Git 变化的增量 Java 文件做检查，快速高效。
+- **Adaptable** 支持包含 Terminal Git 、 SourceTree 、AS Version Control 等任何形式的 Git 提交。
 
 
-hook 脚本:
 
-Shell 流
+### Install
+
+
+
+![20200109110836](/Users/macbook/Documents/julive/library/CheckStyleSample/images/20200109110836.jpg)
+
+
+
+- Download check-style， Put your project root directory。
+
+-  Terminal : 
+
+    ```bash
+  cp ./check-style/pre-commit ./.git/hooks   
+    ```
+
+  ```bash
+  chmod 777 ./.git/hooks/pre-commit    
+  ```
+
+  
+
+### Usage
+
+- **Sample**
+
+![20200109112536](/Users/macbook/Documents/julive/library/CheckStyleSample/images/20200109112536.jpg)
+
+
+
+- **Jump check**
+
+  ```bash
+  git commit -n -m "say somothing"
+  ```
+
+- **Configuration of rules**
+
+​       **Modify** check-style/check-style.xml             
+
+[Rule List](https://checkstyle.sourceforge.io/checks.html)
+[Rule for Chinese](https://www.iteye.com/blog/zhangzuanqian-987121) 
+
+![20200109113315](/Users/macbook/Documents/julive/library/CheckStyleSample/images/20200109113315.jpg)
+
+### Knowledge involved
+
+- Git
+- Shell or Python for script
+
+### Thanks
+
+[CheckStyle](https://checkstyle.org/)
+
 https://www.jianshu.com/p/de90ffbd53e9
-
-Python 流
 https://blog.csdn.net/cmmchenmm/article/details/82804267
-
-
-gradle 
 
 https://www.jianshu.com/p/21d4cbe68a28
 
 
-[Rule List](https://checkstyle.sourceforge.io/checks.html)
-[Rule for Chines](https://www.iteye.com/blog/zhangzuanqian-987121)
+
+**Git hook gives you a door, how big is your brain hole, and how big is the world behind the door**
