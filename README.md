@@ -39,13 +39,13 @@ Checkstyle is highly configurable and can be made to support almost any coding s
 
   
 
-  ```java
+  ```bash
   cp ./check-style/pre-commit ./.git/hooks   
   ```
 
   
 
-  ```java
+  ```bash
   chmod 777 ./.git/hooks/pre-commit    
   ```
 
@@ -62,7 +62,7 @@ Checkstyle is highly configurable and can be made to support almost any coding s
 - **Jump check**
 
   ```bash
-  git commit -n -m "say somothing"
+  git commit -n -m "say something"
   ```
 
 - **Configuration of rules**
