@@ -25,7 +25,7 @@ Checkstyle is highly configurable and can be made to support almost any coding s
 
 
 
-![20200109110836](/Users/macbook/Documents/julive/library/CheckStyleSample/images/20200109110836.jpg)
+![20200109110836](images/20200109110836.jpg)
 
 
 
@@ -47,7 +47,7 @@ Checkstyle is highly configurable and can be made to support almost any coding s
 
 - **Sample**
 
-![20200109112536](/Users/macbook/Documents/julive/library/CheckStyleSample/images/20200109112536.jpg)
+![20200109112536](images/20200109112536.jpg)
 
 
 
@@ -64,7 +64,7 @@ Checkstyle is highly configurable and can be made to support almost any coding s
 [Rule List](https://checkstyle.sourceforge.io/checks.html)
 [Rule for Chinese](https://www.iteye.com/blog/zhangzuanqian-987121) 
 
-![20200109113315](/Users/macbook/Documents/julive/library/CheckStyleSample/images/20200109113315.jpg)
+![20200109113315](images/20200109113315.jpg)
 
 ### Knowledge involved
 
@@ -82,4 +82,4 @@ https://www.jianshu.com/p/21d4cbe68a28
 
 
 
-**Git hook gives you a door, how big is your brain hole, and how big is the world behind the door**
+**Git hook gives you a door, how big your brain hole is, how big the world behind the door will be**
