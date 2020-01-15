@@ -7,13 +7,7 @@ what the following rules do, please see the checkstyle configuration
 page at http://checkstyle.sourceforge.net/config.html -->
 
 <module name="Checker">
-    <!-- 重复代码的检查，超过20行就认为重复，UTF-8格式-->
     <module name="TreeWalker">
-        <module name="AbbreviationAsWordInName">
-            <property name="tokens" value="VARIABLE_DEF,CLASS_DEF" />
-            <property name="ignoreStatic" value="false" />
-            <property name="allowedAbbreviationLength" value="0" />
-            <property name="allowedAbbreviations" value="XML,URL" />
-        </module>
+       <!-- TODO Our of checkstyle-->
     </module>
 </module>

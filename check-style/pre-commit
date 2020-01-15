@@ -16,7 +16,7 @@ wd=`pwd`
 print "当前工作目录：$wd"
 
 check_jar_path="$wd/check-style/checkstyle-8.28-all.jar"
-check_xml_path="$wd/check-style/check-style.xml"
+check_xml_path="$wd/check-style/Huawei_CheckStyle.xml"
 
 # echo $check_jar_path $check_xml_path
 
