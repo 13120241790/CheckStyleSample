@@ -80,6 +80,18 @@ Checkstyle is highly configurable and can be made to support almost any coding s
 - Git
 - Shell or Python for script
 
+### FQA
+
+```java
+
+fatal: cannot run .git/hooks/pre-commit: No such file or directory 
+
+
+```
+
+git commit 遇到这个问题请检查 studio 配置操作文件时候右下角的选项 注意是 LF 和 字符集，注意区分 Windows 和 Mac OS
+
+
 ### Thanks
 
 [CheckStyle](https://checkstyle.org/)
