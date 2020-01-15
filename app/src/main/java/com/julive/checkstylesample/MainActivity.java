@@ -12,7 +12,7 @@ import androidx.navigation.ui.NavigationUI;
 
 public class MainActivity extends AppCompatActivity {
 
-    public static final String TIME_OUT = "time_out";
+    public static final String TIME_OUt = "time_out";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
