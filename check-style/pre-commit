@@ -16,7 +16,7 @@ wd=`pwd`
 print "当前工作目录：$wd"
 
 check_jar_path="$wd/check-style/checkstyle-8.28-all.jar"
-check_xml_path="$wd/check-style/Huawei_CheckStyle.xml"
+check_xml_path="$wd/check-style/check-style.xml"
 
 # echo $check_jar_path $check_xml_path
 
@@ -30,7 +30,8 @@ for file in `git status --porcelain | sed s/^...// | grep '\.java$'`;do
     re=`java -jar $check_jar_path -c $check_xml_path $path >> temp`
     err=`cat temp | grep "ERROR"`
     if [[ $err = *"ERROR"* ]];then
-        print $err
+ #       print $err
+         echo -e "$err"
         is_err=1
     fi
 done
