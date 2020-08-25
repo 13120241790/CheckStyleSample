@@ -48,6 +48,12 @@ Checkstyle is highly configurable and can be made to support almost any coding s
   ```javascript
   chmod 777 ./.git/hooks/pre-commit    
   ```
+  
+  uncheck
+  
+  ```javascript
+  cp ./check-style/ignore_pre_commit/pre-commit ./.git/hooks  
+  ```
 
   
 
